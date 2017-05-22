@@ -73,17 +73,48 @@ body {
 
 #contador {
   background-color: #3F51B5;
-  padding-top: 1px;
+  padding: 5;
   width: 100%;
   height: 50px;
   line-height: 10px;
 }
 
 #contador h2 {
+  width: 40%;
+  margin-left: 20%;
   font-size: 25px;
   text-align: center;
   text-shadow: 3px 3px 10px #333;
   color: #fff;
+  float: left;
+}
+
+#contador div.contagem {
+  width: 20%;
+  float: left;
+  margin-top: 7.5px;
+  margin-left: 25px;
+}
+
+.numero {
+  min-width: 20px;
+  max-width: 55px;
+  background-color: #efefef;
+  color: #000000;
+  font-size: 22px;
+  margin: 0px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.legenda{
+  height: 0px;
+  line-height: 0px;
+  font-size:12px;
+  text-align: center;
+  margin-top: 2px;
+  color: white;
 }
 
 #objetivo {
@@ -113,10 +144,6 @@ body {
   width: 40%;
   height: 40%;
   padding: 3% 3% 3% 3%;
-}
-
-#exemplos {
-
 }
 
 #exemplos h2 {
